@@ -24,12 +24,12 @@ def printer(array_of_names)
   messagesarray = batch_badge_creator(array_of_names)
   assignedlist = assign_rooms(array_of_names)
  
-  messages_array.each do |i|
+  messagesarray.each do |i|
     print messagesarray[i]
-    puts i
+    puts messagesarray[i]
   end
   
-  assigned_list.each do |i|
-    puts i
+  assignedlist.each do |i|
+    puts assignedlist[i]
   end
 end
