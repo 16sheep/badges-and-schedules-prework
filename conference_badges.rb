@@ -25,11 +25,11 @@ def printer(array_of_names)
   assignedlist = assign_rooms(array_of_names)
  
   messagesarray.each do |i|
-    print messagesarray(i)
-    puts messagesarray(i)
+    print i
+    puts i
   end
   
   assignedlist.each do |i|
-    puts assignedlist[i]
+    puts i
   end
 end
